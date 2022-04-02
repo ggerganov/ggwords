@@ -23,6 +23,7 @@ target_include_directories(${TARGET} PUBLIC
 
 target_link_libraries(${TARGET} PRIVATE
     ${CMAKE_DL_LIBS}
+    ${CMAKE_THREAD_LIBS_INIT}
     )
 
 make_directory(${CMAKE_RUNTIME_OUTPUT_DIRECTORY}/${TARGET}-extra/)

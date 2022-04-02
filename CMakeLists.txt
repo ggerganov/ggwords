@@ -57,6 +57,8 @@ else()
     string(STRIP "${SDL2_LIBRARIES}" SDL2_LIBRARIES)
 endif()
 
+find_package(Threads REQUIRED)
+
 # main
 
 set(CMAKE_CXX_STANDARD 20)
