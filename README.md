@@ -14,3 +14,7 @@ make -j4
 
 ./bin/analyze /path/to/metadata/books.txt /path/to/books/text
 ```
+
+## Sample data
+
+The data in [./data](./data) was generated using https://github.com/pgcorpus/gutenberg
